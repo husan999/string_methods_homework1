@@ -6,5 +6,5 @@ def main(s):
     Returns:
         str: answer
     """
-    return s.capitalize()
+    return s.title()
 print(main("google is a search engine"))
