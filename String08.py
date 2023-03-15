@@ -6,5 +6,10 @@ def main(s):
     Returns:
         bool: answer
     """
-    
-    return
+    a=0
+    if s==s.upper():
+        a+=1
+        return True
+    else:
+        return False
+print(main("CODESCHOOL"))
